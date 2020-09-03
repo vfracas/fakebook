@@ -1,0 +1,121 @@
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#root, .log_page{
+    height: 100%;
+    width: 100%;   
+}
+
+.header{
+    padding-top: 72px;
+    padding-bottom: 112px;
+    height: 720px;
+    background-color: rgb(236, 236, 236);
+    margin: 0 auto;
+}
+
+.title_login{
+    height: 536px;
+    width: 980px;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.title_sentence{
+    width: 580px;
+    height: 266px;
+}
+
+.title{
+    color: rgb(124, 12, 124);
+    font-family: 'Alata', sans-serif;
+    font-size: 3.5rem;
+}
+
+.sentence{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3em;
+}
+
+.log_form{
+    height: 100%;
+    width: 396px;
+}
+
+.log_inp{
+    margin-top: 40px;
+    padding: 12px 0;
+    height: 345px;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: inherit;
+}
+
+.mail, .psw{
+    font-size: 1rem;
+    width: 364px;
+    opacity: 0.7;
+    height: 50px;
+}
+
+.connect_btn{
+    width: 364px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.midline{
+    width: 90%;
+}
+
+.signup_btn{
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0px 16px;
+    background-color: #42b72a;
+    color: white;
+    text-decoration: none;
+}
+
+.signup_link, .signup_link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.reset_psw{
+    font-size: 16px;
+}
+
+.footer{
+    padding-top: 26px;
+    margin-left: 24%;
+    margin-right: 25%;
+    color: lightgray;
+    font-size: 12px;
+}
+
+.languages > a{
+    margin-right: 10px;
+    color: rgb(129, 129, 129);
+}
+
+.services > a{
+    margin-right: 20px;
+    color: rgb(129, 129, 129);
+}
+
+.copyrights{
+    font-size: 10px;
+    color: rgb(87, 87, 87);
+}
