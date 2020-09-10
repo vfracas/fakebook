@@ -9,7 +9,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App exact path="/fakebook"/>
   </React.StrictMode>,
   document.getElementById('root')
 );

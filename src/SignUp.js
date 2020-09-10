@@ -34,7 +34,7 @@ const SignUp = ({ history}) => {
                             </div>
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>S'inscrire</b></button>
                             <hr className="midline"/>
-                            <button className="signup_btn" type="button"><a className="signup_link" href="/login"><b>Se connecter</b></a></button>
+                            <button className="signup_btn" type="button"><a className="signup_link" href="/fakebook"><b>Se connecter</b></a></button>
                         </form>
                     </div>
                 </div>
