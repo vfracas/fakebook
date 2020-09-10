@@ -43,7 +43,7 @@ const Login = ({history}) => {
                                 <input className="form-control form-control-lg form-control-block psw" type="password" name="password" placeholder="Mot de passe"/>
                             </div>
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>Connexion</b></button>
-                                <Link className="reset_psw" href="/resetpsw">Mot de passe oublié ?</Link>
+                                <Link className="reset_psw" to="/resetpsw">Mot de passe oublié ?</Link>
                             <hr className="midline"/>
                             <Link to='/signup' className="sign_log_btn"><b>Créer un compte</b></Link>
                         </form>
@@ -52,25 +52,25 @@ const Login = ({history}) => {
             </div>
             <div className="footer">
                 <p className="languages">
-                    <Link href="/#">Français (France)</Link>
-                    <Link href="/#">English (US)</Link>
+                    <Link to="/#">Français (France)</Link>
+                    <Link to="/#">English (US)</Link>
                 </p>
                 <hr/>
                 <p className="services">
-                    <Link href="/signup">S'inscrire</Link>
-                    <Link href="/fakebook">Connexion</Link>
-                    <Link href="https://www.instagram.com/?hl=fr">Instagram</Link>
-                    <Link href="/#">Messenger</Link>
-                    <Link href="/#">Fakebook Lite</Link>
-                    <Link href="/#">Confidentialité</Link>
-                    <Link href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</Link>
-                    <Link href="/#">Cookies</Link>
-                    <Link href="https://www.google.com/maps">Lieux</Link>
-                    <Link href="/#">Aide</Link>
-                    <Link href="/#">Emplois</Link>
-                    <Link href="/#">À propos</Link>
-                    <Link href="/#">Local</Link>
-                    <Link href="https://github.com/vfracas">Github</Link>
+                    <Link to="/signup">S'inscrire</Link>
+                    <Link to="/fakebook">Connexion</Link>
+                    <Link to="https://www.instagram.com/?hl=fr">Instagram</Link>
+                    <Link to="/#">Messenger</Link>
+                    <Link to="/#">Fakebook Lite</Link>
+                    <Link to="/#">Confidentialité</Link>
+                    <Link to="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</Link>
+                    <Link to="/#">Cookies</Link>
+                    <Link to="https://www.google.com/maps">Lieux</Link>
+                    <Link to="/#">Aide</Link>
+                    <Link to="/#">Emplois</Link>
+                    <Link to="/#">À propos</Link>
+                    <Link to="/#">Local</Link>
+                    <Link to="https://github.com/vfracas">Github</Link>
                 </p>
                 <p className="copyrights">Fakebook © 2020</p>
             </div>
