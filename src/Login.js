@@ -43,7 +43,7 @@ const Login = ({history}) => {
                                 <input className="form-control form-control-lg form-control-block psw" type="password" name="password" placeholder="Mot de passe"/>
                             </div>
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>Connexion</b></button>
-                                <a className="reset_psw" href="/resetpsw">Mot de passe oublié ?</a>
+                                <Link className="reset_psw" href="/resetpsw">Mot de passe oublié ?</Link>
                             <hr className="midline"/>
                             <Link to='/signup' className="sign_log_btn"><b>Créer un compte</b></Link>
                         </form>
@@ -52,25 +52,25 @@ const Login = ({history}) => {
             </div>
             <div className="footer">
                 <p className="languages">
-                    <a href="/#">Français (France)</a>
-                    <a href="/#">English (US)</a>
+                    <Link href="/#">Français (France)</Link>
+                    <Link href="/#">English (US)</Link>
                 </p>
                 <hr/>
                 <p className="services">
-                    <a href="/signup">S'inscrire</a>
-                    <a href="/fakebook">Connexion</a>
-                    <a href="https://www.instagram.com/?hl=fr">Instagram</a>
-                    <a href="/#">Messenger</a>
-                    <a href="/#">Fakebook Lite</a>
-                    <a href="/#">Confidentialité</a>
-                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</a>
-                    <a href="/#">Cookies</a>
-                    <a href="https://www.google.com/maps">Lieux</a>
-                    <a href="/#">Aide</a>
-                    <a href="/#">Emplois</a>
-                    <a href="/#">À propos</a>
-                    <a href="/#">Local</a>
-                    <a href="https://github.com/vfracas">Github</a>
+                    <Link href="/signup">S'inscrire</Link>
+                    <Link href="/fakebook">Connexion</Link>
+                    <Link href="https://www.instagram.com/?hl=fr">Instagram</Link>
+                    <Link href="/#">Messenger</Link>
+                    <Link href="/#">Fakebook Lite</Link>
+                    <Link href="/#">Confidentialité</Link>
+                    <Link href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</Link>
+                    <Link href="/#">Cookies</Link>
+                    <Link href="https://www.google.com/maps">Lieux</Link>
+                    <Link href="/#">Aide</Link>
+                    <Link href="/#">Emplois</Link>
+                    <Link href="/#">À propos</Link>
+                    <Link href="/#">Local</Link>
+                    <Link href="https://github.com/vfracas">Github</Link>
                 </p>
                 <p className="copyrights">Fakebook © 2020</p>
             </div>
