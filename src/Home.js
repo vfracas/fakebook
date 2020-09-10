@@ -10,14 +10,6 @@ const Home = () => {
         localStorage.setItem("dark", JSON.stringify(darkTheme));
     }, [darkTheme])
 
-    {/*function getDefaultTheme() {
-        const isLoggingBack = "dark" in localStorage;
-        const savedTheme= JSON.parse(localStorage.getItem("dark"));
-        if(isLoggingBack){
-            return savedTheme;
-        }
-    }*/}
-
     return(
         <div className={darkTheme ? "dark-theme" : "light-theme"}>
             <div className="homepage">
