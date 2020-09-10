@@ -107,7 +107,7 @@ a:hover{
     width: 90%;
 }
 
-.signup_btn{
+.sign_log_btn{
     border: none;
     border-radius: 6px;
     font-size: 17px;
@@ -118,8 +118,7 @@ a:hover{
     text-decoration: none;
 }
 
-.signup_link, .signup_link:hover{
-    text-decoration: none;
+.sign_log_btn:hover{
     color: white;
 }
 

@@ -1,5 +1,6 @@
 import React, { useCallback, useContext } from 'react';
 import { withRouter, Redirect } from 'react-router';
+import {Link} from 'react-router-dom';
 import app from "./base.js";
 import {AuthContext} from "./Auth.js";
 
@@ -44,7 +45,7 @@ const Login = ({history}) => {
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>Connexion</b></button>
                                 <a className="reset_psw" href="/resetpsw">Mot de passe oublié ?</a>
                             <hr className="midline"/>
-                            <button className="signup_btn" type="button"><a className="signup_link" href="/signup" onclick="window.open('/signup', '_self');"><b>Créer un compte</b></a></button>
+                            <Link to='/signup' className="sign_log_btn"><b>Créer un compte</b></Link>
                         </form>
                     </div>
                 </div>
