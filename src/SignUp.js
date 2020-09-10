@@ -49,18 +49,18 @@ const SignUp = ({ history}) => {
                 <p className="services">
                     <Link to="/signup">S'inscrire</Link>
                     <Link to="/fakebook">Connexion</Link>
-                    <Link to="https://www.instagram.com/?hl=fr">Instagram</Link>
+                    <a href="https://www.instagram.com/?hl=fr">Instagram</a>
                     <Link to="/#">Messenger</Link>
                     <Link to="/#">Fakebook Lite</Link>
                     <Link to="/#">Confidentialité</Link>
-                    <Link to="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</Link>
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</a>
                     <Link to="/#">Cookies</Link>
                     <Link to="https://www.google.com/maps">Lieux</Link>
                     <Link to="/#">Aide</Link>
                     <Link to="/#">Emplois</Link>
                     <Link to="/#">À propos</Link>
                     <Link to="/#">Local</Link>
-                    <Link to="https://github.com/vfracas">Github</Link>
+                    <a href="https://github.com/vfracas">Github</a>
                 </p>
                 <p className="copyrights">Fakebook © 2020</p>
             </div>

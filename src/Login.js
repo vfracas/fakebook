@@ -43,7 +43,7 @@ const Login = ({history}) => {
                                 <input className="form-control form-control-lg form-control-block psw" type="password" name="password" placeholder="Mot de passe"/>
                             </div>
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>Connexion</b></button>
-                                <Link className="reset_psw" to="/resetpsw">Mot de passe oublié ?</Link>
+                                <Link className="reset_psw" to="/#">Mot de passe oublié ?</Link>
                             <hr className="midline"/>
                             <Link to='/signup' className="sign_log_btn"><b>Créer un compte</b></Link>
                         </form>
@@ -59,18 +59,18 @@ const Login = ({history}) => {
                 <p className="services">
                     <Link to="/signup">S'inscrire</Link>
                     <Link to="/fakebook">Connexion</Link>
-                    <Link to="https://www.instagram.com/?hl=fr">Instagram</Link>
+                    <a href="https://www.instagram.com/?hl=fr">Instagram</a>
                     <Link to="/#">Messenger</Link>
                     <Link to="/#">Fakebook Lite</Link>
                     <Link to="/#">Confidentialité</Link>
-                    <Link to="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</Link>
+                    <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</a>
                     <Link to="/#">Cookies</Link>
                     <Link to="https://www.google.com/maps">Lieux</Link>
                     <Link to="/#">Aide</Link>
                     <Link to="/#">Emplois</Link>
                     <Link to="/#">À propos</Link>
                     <Link to="/#">Local</Link>
-                    <Link to="https://github.com/vfracas">Github</Link>
+                    <a href="https://github.com/vfracas">Github</a>
                 </p>
                 <p className="copyrights">Fakebook © 2020</p>
             </div>
