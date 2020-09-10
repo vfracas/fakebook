@@ -1,6 +1,7 @@
 # fakebook
 
 This is a simplified clone of Facebook. It has no commercial purpose.
+
 The authentication part is based on Maksim Ivanov video : https://www.youtube.com/watch?v=unr4s3jd9qA
 
 The project isn't finished yet, some functionalities will be added in the future.

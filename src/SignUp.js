@@ -41,24 +41,24 @@ const SignUp = ({ history}) => {
             </div>
             <div className="footer">
                 <p className="languages">
-                    <a href="/login_fr">Français (France)</a>
-                    <a href="/login_us">English (US)</a>
+                    <a href="/#">Français (France)</a>
+                    <a href="/#">English (US)</a>
                 </p>
                 <hr/>
                 <p className="services">
                     <a href="/signup">S'inscrire</a>
-                    <a href="/login">Connexion</a>
-                    <a href="/signup">Instagram</a>
-                    <a href="/login">Messenger</a>
-                    <a href="/login">Fakebook Lite</a>
-                    <a href="/login">Confidentialité</a>
+                    <a href="/fakebook">Connexion</a>
+                    <a href="https://www.instagram.com/?hl=fr">Instagram</a>
+                    <a href="/#">Messenger</a>
+                    <a href="/#">Fakebook Lite</a>
+                    <a href="/#">Confidentialité</a>
                     <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Pages</a>
-                    <a href="/login">Cookies</a>
+                    <a href="/#">Cookies</a>
                     <a href="https://www.google.com/maps">Lieux</a>
-                    <a href="/login">Aide</a>
-                    <a href="/login">Emplois</a>
-                    <a href="/login">À propos</a>
-                    <a href="/login">Local</a>
+                    <a href="/#">Aide</a>
+                    <a href="/#">Emplois</a>
+                    <a href="/#">À propos</a>
+                    <a href="/#">Local</a>
                     <a href="https://github.com/vfracas">Github</a>
                 </p>
                 <p className="copyrights">Fakebook © 2020</p>
