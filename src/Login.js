@@ -44,7 +44,7 @@ const Login = ({history}) => {
                             <button className="btn btn-primary btn-lg btn-block connect_btn" type="submit"><b>Connexion</b></button>
                                 <a className="reset_psw" href="/resetpsw">Mot de passe oublié ?</a>
                             <hr className="midline"/>
-                            <button className="signup_btn" type="button"><a className="signup_link" href="/signup"><b>Créer un compte</b></a></button>
+                            <button className="signup_btn" type="button"><a className="signup_link" href="/signup" onclick="window.open('/signup', '_self');"><b>Créer un compte</b></a></button>
                         </form>
                     </div>
                 </div>
@@ -71,6 +71,7 @@ const Login = ({history}) => {
                     <a href="/#">Local</a>
                     <a href="https://github.com/vfracas">Github</a>
                 </p>
+                <p className="copyrights">Fakebook © 2020</p>
             </div>
         </div>
     );
