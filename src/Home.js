@@ -5,18 +5,10 @@ import ArticleForm from './ArticleForm';
 import ArticleListContextProvider from './context/ArticleListContext';
 
 const Home = () => {
-    const [darkTheme, setDarkTheme] = useState(getDefaultTheme());
+    const [darkTheme, setDarkTheme] = useState();
     useEffect(() =>{
         localStorage.setItem("dark", JSON.stringify(darkTheme));
     }, [darkTheme])
-
-    function getDefaultTheme() {
-        const isLoggingBack = "dark" in localStorage;
-        const savedTheme= JSON.parse(localStorage.getItem("dark"));
-        if(isLoggingBack){
-            return savedTheme;
-        }
-    }
 
     return(
         <div className={darkTheme ? "dark-theme" : "light-theme"}>
